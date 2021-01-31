@@ -1,0 +1,486 @@
+@media (max-width: 1366px) {
+    body{
+        max-width: 1366px;
+        overflow: scroll;;
+    }
+    .container{
+        max-width: 1200px;
+    }
+    .news{
+        background-size: contain;
+    }
+    .slider{
+        padding-top: 146px;
+        padding-bottom: 146px;
+    }
+    .section_our_method{
+        background-size: contain;
+    }
+    .our_method {
+        padding-top: 250px;
+        padding-bottom: 235px;
+    }
+    .our_live_music{
+        background-size: contain;
+    }
+    .live_music {
+        padding-bottom: 430px;
+    }
+    .images_relative {
+        top: -200px;
+    }
+    .Steak{
+        width: 731px;
+        height: auto;
+    }
+    .Сutlery{
+        width: 335px;
+        height: auto;
+    }
+    .nav_desktop{
+        max-width: 900px;
+    }
+}
+@media (max-width: 1280px) {
+    body{
+        max-width: 1280px;
+    }
+    .container{
+        max-width: 1026px;
+    }
+    .nav_desktop{
+        width: auto;
+    }
+    nav ul li{
+        padding: 18px 18px;
+    }
+    .dropright:hover .dropright-menu {
+        transform: translate(147px, -18px);
+    }
+    .menu_content {
+        justify-content: space-around;
+    }
+    .menu_section{
+        max-height: none;
+    }
+    .about_special{
+        width: 500px;
+        margin-left: 10px;
+    }
+    .our_method {
+        padding-top: 215px;
+        padding-bottom: 215px;
+    }
+    .slider{
+        padding-top: 126px;
+        padding-bottom: 130px;
+    }
+    .live_music {
+        padding-bottom: 373px;
+    }
+    .menu_chiken{
+        order: 1;
+    }
+    .menu_beef{
+        order: 3;
+    }
+    .menu_pork{
+        order: 5;
+    }
+    .menu_slides{
+        order: 2;
+    }
+    .menu_drinks{
+        order: 4;
+    }
+    .menu_desserts{
+        order: 6;
+    }
+}
+@media (max-width: 1024px) {
+    body{
+        max-width: 1024px;
+    }
+    .container{
+        max-width: 900px;
+    }
+    .logo{
+        width: 200px;
+        height: auto;
+    }
+    .advertisement {
+        height: 100px;
+        width: 350px;
+        border: 6px solid
+    }
+    .text_advertisement {
+        width: 350px;
+    }
+    .rewiev {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+    .slider {
+        padding-top: 125px;
+        padding-bottom: 125px;
+    }
+    .our_method {
+        padding-top: 135px;
+        padding-bottom: 137px;
+    }
+    .live_music {
+        padding-top: 65px;
+        padding-bottom: 247px;
+    }
+    .Chiken_with_salat{
+        width: 296px;
+        height: 300px;
+    }
+    .Steak_Beef{
+        width: 340px;
+        height: 299px;
+    }
+    .Prime_Steak{
+        width: 320px;
+        height: 318px;
+    }
+    .menu_content{
+        justify-content: space-around;
+    }
+    .special {
+        width: 400px;
+    }
+    .about_special {
+        height: 190px;
+        width: 400px;
+        padding-left: 15px;
+    }
+    .img_1_group_4 img{
+        width: 307px;
+        height: 300px;
+    }
+    .images_relative {
+        top: -85px;
+    }
+    .Steak{
+        width: 654px;
+        height: auto;
+    }
+    .Сutlery{
+        width: 260px;
+        height: auto;
+    }
+}
+@media (max-width: 768px) {
+    body{
+        max-width: 768px;
+    }
+    .container{
+        max-width: 600px;
+    }
+    .logoAndNav{
+        justify-content: center;
+    }
+    .date_advertisement {
+        background-color: gray;
+        opacity: 0.8;
+        width: 350px;
+    }
+    .rewiev{
+        background-color: gray;
+        opacity: 0.8;
+        padding: 0 5px;
+    }
+    .news{
+        background-size: auto;
+        background-position: center left;
+    }
+    .slider{
+        padding-top: 146px;
+        padding-bottom: 146px;
+    }
+    .section_our_method{
+        background-size: auto;
+    }
+    .our_method {
+        padding-top: 250px;
+        padding-bottom: 235px;
+    }
+    .our_live_music {
+        background-size: auto;
+        background-position: left bottom;
+    }
+    .music_content{
+        background-color: gray;
+        opacity: 0.8;
+    }
+    .about_music{
+        background-color: gray;
+        opacity: 0.8;
+        height: auto;
+    }
+    .method_content {
+        background-color: gray;
+        opacity: 0.8;
+        height: 255px;
+    }
+    .nav_desktop{
+        border: 0;
+        z-index: 1000;
+    }
+    .dropdown:after {
+        content: '>';
+    }
+    .dropdown:hover .dropdown-menu{
+        opacity: 1;
+        transform: scaleY(1);
+        transform: translate(100px, -52px);
+    }
+    .nav_desktop .nav_menu{
+        display: none;
+        align-items: flex-start;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: #262626;
+        position: fixed;
+        top: 50px;
+        left: 0;
+        transform: translateY(-100%);
+        transition: all 0.8s linear;
+        opacity: 0.9;
+        z-index: 2000;
+    }
+    .nav_desktop.open .nav_menu{
+        display: block;
+        transform: translateY(0);
+    }
+    .mobile_button{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        border: 2px solid #e1b838;
+        z-index: 1000;
+    }
+    .mobile_button i{
+        display: block;
+        width: 30px;
+        height: 3px;
+        margin: 6px;
+        background-color: #e1b838;
+    }
+    .mobile_button:hover i{
+        background-color: white;
+        transition: all 0.5s;
+    }
+    .mobile_button:hover {
+        border: 3px solid white;
+        transition: all 0.5s;
+        cursor: pointer;
+    }
+    .menu_img{
+        justify-content: center;
+    }
+    .Chiken_with_salat{
+        width: 226px;
+        height: 230px;
+    }
+    .Steak_Beef{
+        width: 270px;
+        height: 229px;
+    }
+    .Prime_Steak{
+        display: none;
+    }
+    .menu_group{
+        width: 230px;
+        height: 207px;
+    }
+    .text_discount, .logo_2, .logo_discount_text {
+        background-color: gray;
+        opacity: 0.9;
+    }
+    .section_special_of_the_month {
+        max-height: 621px;
+    }
+    .img_1_group_4 img {
+        width: 237px;
+        height: 230px;
+    }
+    .Steak{
+        width: 420px;
+        height: auto;
+    }
+    .Сutlery{
+        width: 170px;
+        height: auto;
+    }
+    .images_relative {
+        top: -40px;
+    }
+    .open_and_footnav {
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .footnav{
+        margin-left: 0px;
+    }
+    .foot_title {
+        margin-top: 80px;
+    }
+    .social_and_adress {
+        flex-direction: column;
+    }
+}
+@media (max-width: 375px) {
+    body{
+        max-width: 375px;
+    }
+    .container{
+        max-width: 320px;
+    }
+    .logoAndNav{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    nav ul li {
+        font-size: 15px;
+        padding: 10px;
+    }
+    .dropright {
+        font-size: 15px;
+        width: 70px;
+    }
+    .dropdown:hover .dropdown-menu {
+        transform: translate(67px, -30px);
+    }
+    .dropright-menu {
+        width: 150px;
+    }
+    .dropright:hover .dropright-menu {
+        transform: translate(80px, -10px);
+    }
+    .advertisement{
+        width: 310px;
+        border: 4px solid #e1b838;
+    }
+    .date_advertisement {
+        width: 310px;
+    }
+    .text_advertisement{
+        width: 310px;
+    }
+    .news{
+        margin-bottom: 30px;
+    }
+    .logo {
+        width: 120px;
+        height: auto;
+    }
+    .rewiev{
+        text-align: center;
+    }
+    .Steak_Beef{
+        display: none;
+    }
+    .menu_section {
+        margin-bottom: 30px;
+    }
+    .menu_content{
+        padding: 0;
+    }
+    .menu_group:nth-child(-n+6){
+        margin-bottom: 52px;
+    }
+    .discount{
+        margin-bottom: 30px;
+        background-position: center left -220px;
+    }
+    .special {
+        border: 3px solid #e1b838;
+        height: auto;
+        width: 300px;
+    }
+    .special_title{
+        height: auto;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .special_title p{
+        margin: 0;
+    }
+    .special_content{
+        height: auto;
+        font-size: 20px;
+    }
+    .about_special{
+        font-size: 15px;
+        padding-left: 0px;
+        margin: 0;
+        margin-top: 10px;
+        width: 300px;
+    }
+    .img_1_group_4 img {
+        width: 187px;
+        height: 180px;
+    }
+    .special_of_the_month {
+        flex-direction: column;
+    }
+    .Steak{
+        width: 320px;
+    }
+    .Сutlery {
+        display: none;
+    }
+    .section_special_of_the_month {
+        margin-bottom: 65px;
+    }
+    .section_our_method {
+        margin-bottom: 30px;
+    }
+    .live_music{
+        flex-direction: column;
+    }
+    .foot_title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .open_and_footnav {
+        margin-bottom: 0px;
+    }
+    .social_and_adress {
+        margin-bottom: 30px;
+    }
+    .adress{
+        font-size: 25px;
+    }
+    .social_networks{
+        justify-content: center;
+    }
+    .youtube a{
+        margin: 0;
+    }
+    .social a {
+        width: 30px;
+        height: 30px;
+    }
+    .grill{
+        margin-top:  25px;
+    }
+    .window_input {
+        padding-top: 70px;
+        padding: 5px;
+        width: 100vh;
+        height: 100vh;
+    }
+    .window_input_header{
+        padding-top: 25px;
+        justify-content: center;
+    }
+    .button_close{
+        display: none;
+    }
+}
